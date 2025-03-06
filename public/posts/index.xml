@@ -6,10 +6,17 @@
     <description>Recent content in Posts on Tux Tweaks</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 06 Mar 2025 20:18:27 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 06 Mar 2025 22:11:17 +0530</lastBuildDate>
     <atom:link href="https://mohammedbilalns.github.io/Tux-Tweaks/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Enable Bluetooth in Arch Linux/Endeavour Os/Manjaro Linux</title>
+      <title>Disable Suspend in Linux</title>
+      <link>https://mohammedbilalns.github.io/Tux-Tweaks/posts/disable-suspend-in-linux/</link>
+      <pubDate>Thu, 06 Mar 2025 22:11:17 +0530</pubDate>
+      <guid>https://mohammedbilalns.github.io/Tux-Tweaks/posts/disable-suspend-in-linux/</guid>
+      <description>&lt;p&gt;If your Linux system is automatically suspending or sleeping and you want to disable this behavior, you can prevent it using &lt;code&gt;systemctl&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;h3 id=&#34;disable-suspend-and-sleep&#34;&gt;&lt;strong&gt;Disable Suspend and Sleep&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;p&gt;Run the following command to disable both suspend and sleep modes:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo systemctl mask sleep.target suspend.target&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;After executing the command, restart your system for the changes to take effect.&lt;/p&gt;&#xA;&lt;h3 id=&#34;re-enable-suspend-and-sleep&#34;&gt;&lt;strong&gt;Re-enable Suspend and Sleep&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;p&gt;If you need to restore the suspend and sleep functionality, use:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo systemctl unmask sleep.target suspend.target&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;This will allow your system to enter suspend and sleep modes again.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Enable Bluetooth in Arch Based Distros</title>
       <link>https://mohammedbilalns.github.io/Tux-Tweaks/posts/enable-bluetooth-in-arch-based-distros/</link>
       <pubDate>Thu, 06 Mar 2025 20:18:27 +0530</pubDate>
       <guid>https://mohammedbilalns.github.io/Tux-Tweaks/posts/enable-bluetooth-in-arch-based-distros/</guid>

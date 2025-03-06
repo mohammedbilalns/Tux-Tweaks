@@ -46,8 +46,8 @@
   <meta property="og:type" content="website">
 
   <meta itemprop="name" content="Tux Tweaks">
-  <meta itemprop="datePublished" content="2025-03-06T20:18:27+05:30">
-  <meta itemprop="dateModified" content="2025-03-06T20:18:27+05:30">
+  <meta itemprop="datePublished" content="2025-03-06T22:11:17+05:30">
+  <meta itemprop="dateModified" content="2025-03-06T22:11:17+05:30">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Tux Tweaks">
 
@@ -114,8 +114,39 @@
       
       <div class="blah w-100">
         <h1 class="f3 fw1 athelas mt0 lh-title">
+          <a href="/Tux-Tweaks/posts/disable-suspend-in-linux/" class="color-inherit dim link">
+            Disable Suspend in Linux
+            </a>
+        </h1>
+        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
+          <p>If your Linux system is automatically suspending or sleeping and you want to disable this behavior, you can prevent it using <code>systemctl</code>.</p>
+<h3 id="disable-suspend-and-sleep"><strong>Disable Suspend and Sleep</strong></h3>
+<p>Run the following command to disable both suspend and sleep modes:</p>
+<pre tabindex="0"><code>sudo systemctl mask sleep.target suspend.target
+</code></pre><p>After executing the command, restart your system for the changes to take effect.</p>
+<h3 id="re-enable-suspend-and-sleep"><strong>Re-enable Suspend and Sleep</strong></h3>
+<p>If you need to restore the suspend and sleep functionality, use:</p>
+<pre tabindex="0"><code>sudo systemctl unmask sleep.target suspend.target
+</code></pre><p>This will allow your system to enter suspend and sleep modes again.</p>
+        </div>
+        <a href="/Tux-Tweaks/posts/disable-suspend-in-linux/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+      </div>
+    </div>
+  </div>
+</article>
+
+          </div>
+        
+          <div class="relative w-100 mb4">
+            
+<article class="bb b--black-10">
+  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
+    <div class="flex flex-column flex-row-ns">
+      
+      <div class="blah w-100">
+        <h1 class="f3 fw1 athelas mt0 lh-title">
           <a href="/Tux-Tweaks/posts/enable-bluetooth-in-arch-based-distros/" class="color-inherit dim link">
-            Enable Bluetooth in Arch Linux/Endeavour Os/Manjaro Linux
+            Enable Bluetooth in Arch Based Distros
             </a>
         </h1>
         <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
