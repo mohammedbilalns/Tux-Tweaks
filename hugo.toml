@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://mohammedbilalns.github.io/Tux-Tweaks/'
 languageCode = 'en-us'
-title = 'Test'
+title = 'Tux Tweaks'
 theme = 'ananke'
