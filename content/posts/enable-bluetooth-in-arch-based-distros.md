@@ -1,6 +1,6 @@
 +++
 date = '2025-03-06T20:18:27+05:30'
-draft = true
+draft = false
 title = 'Enable Bluetooth in Arch Linux/Endeavour Os/Manjaro Linux'
 +++
 

@@ -2,14 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.org/posts/</loc>
+    <loc>https://mohammedbilalns.github.io/Tux-Tweaks/posts/enable-bluetooth-in-arch-based-distros/</loc>
     <lastmod>2025-03-06T20:18:27+05:30</lastmod>
   </url><url>
-    <loc>https://example.org/</loc>
+    <loc>https://mohammedbilalns.github.io/Tux-Tweaks/posts/</loc>
     <lastmod>2025-03-06T20:18:27+05:30</lastmod>
   </url><url>
-    <loc>https://example.org/categories/</loc>
+    <loc>https://mohammedbilalns.github.io/Tux-Tweaks/</loc>
+    <lastmod>2025-03-06T20:18:27+05:30</lastmod>
   </url><url>
-    <loc>https://example.org/tags/</loc>
+    <loc>https://mohammedbilalns.github.io/Tux-Tweaks/categories/</loc>
+  </url><url>
+    <loc>https://mohammedbilalns.github.io/Tux-Tweaks/tags/</loc>
   </url>
 </urlset>
