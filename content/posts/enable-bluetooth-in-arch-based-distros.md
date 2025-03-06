@@ -1,7 +1,7 @@
 +++
 date = '2025-03-06T20:18:27+05:30'
 draft = false
-title = 'Enable Bluetooth in Arch Linux/Endeavour Os/Manjaro Linux'
+title = 'Enable Bluetooth in Arch Based Distros'
 +++
 
 If Bluetooth is not working properly after installing an Arch-based Linux distribution like Arch Linux, EndeavourOS, or Manjaro, it may be due to the Bluetooth service not being enabled.
